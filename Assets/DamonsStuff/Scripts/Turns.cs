@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Turns : MonoBehaviour {
-
+    int speed;
+    private bool isPC = false;
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +14,8 @@ public class Turns : MonoBehaviour {
 	void Update () {
 		
 	}
+    public void UpdateUI()
+    {
+
+    }
 }
